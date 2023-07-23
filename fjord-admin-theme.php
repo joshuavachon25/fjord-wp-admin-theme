@@ -35,4 +35,4 @@ add_action( 'admin_head', 'set_theme_colors' );
 add_action( 'login_head', 'set_theme_colors' );
 
 
-%>
+?>
