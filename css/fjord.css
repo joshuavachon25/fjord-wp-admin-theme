@@ -1,1 +1,28 @@
+body{
+	
+}
+
+#wpadminbar{
+	background: #2E3440;
+    color:#E5E9F0;
+    height:50px;
+    padding:0 10px;
+    right:0;
+    width:auto;
+    z-index:9998
+}
+
+#adminmenuback, #adminmenuwrap, #adminmenu{
+    background-color:#2E3440;
+}
+
+#wp-admin-bar-root-default{
+	display:none;
+}
+
+#wp-admin-bar-root-default:before{
+	content: "FjordCMS";
+	color: #E5E9F0;
+	font-size: 30px;
+}
 
