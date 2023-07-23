@@ -24,7 +24,7 @@ function set_theme_colors() {
 		return;
 	}
 	$user_theme = $user_info->admin_color;
-  include('css/' . $user_data . '.css')
+  include('css/' . $user_data . '.css');
 
 }
 
