@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 body{
-	
+	background: #ECEFF4;
 }
 
 #wpadminbar{
@@ -15,6 +15,7 @@ body{
 
 #adminmenuback, #adminmenuwrap, #adminmenu{
     background-color:#2E3440;
+	width: 200px;
 }
 
 #adminmenuwrap{
@@ -58,4 +59,25 @@ body{
 .wp-menu-name{
 	text-transform: uppercase;
 	font-family: 'Roboto Condensed', sans-serif;
+	transition: 0.25s;
+}
+
+.wp-menu-name:hover{
+	letter-spacing: 0.2rem;
+}
+
+#wpcontent, #wpfooter{
+	margin-left: 200px;
+}
+
+#adminmenu .wp-not-current-submenu .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu{
+	min-width: 200px;
+}
+
+#adminmenu .wp-submenu{
+	left:200px;
+}
+
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap{
+	width: 200px;
 }
