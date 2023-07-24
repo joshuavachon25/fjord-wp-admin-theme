@@ -32,6 +32,10 @@ body{
 	align-content: center;
 }
 
+#wp-admin-bar-my-account .ab-sub-wrapper{
+	top:45px;
+}
+
 #wp-toolbar{
 
 	display: flex;
@@ -80,4 +84,17 @@ body{
 
 #adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap{
 	width: 200px;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu{
+	background: #4C566A;
+
+}
+
+#adminmenu .wp-submenu{
+	background: #D8DEE9;
+}
+
+#adminmenu .wp-submenu a, #adminmenu .wp-submenu li.current{
+	color: #2E3440 !important;
 }
