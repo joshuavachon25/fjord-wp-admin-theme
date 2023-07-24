@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 body{
 	
 }
@@ -5,8 +7,7 @@ body{
 #wpadminbar{
 	background: #2E3440;
     color:#E5E9F0;
-    height:50px;
-    padding:0 10px;
+    padding:15px 10px;
     right:0;
     width:auto;
     z-index:9998
@@ -16,13 +17,45 @@ body{
     background-color:#2E3440;
 }
 
+#adminmenuwrap{
+	padding-top: 30px;
+}
+
 #wp-admin-bar-root-default{
 	display:none;
 }
 
-#wp-admin-bar-root-default:before{
-	content: "FjordCMS";
-	color: #E5E9F0;
-	font-size: 30px;
+#wp-admin-bar-my-account{
+	display: flex;
+	justify-content: start;
+	align-content: center;
 }
 
+#wp-toolbar{
+
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-content: center;
+}
+
+#fjord-logo{
+	font-weight: 700;
+	font-size: 18px;
+	display: flex;
+	justify-content: start;
+	align-content: center;
+}
+
+#fjord-logo-img{
+	width: 45px;
+}
+
+#wpbody-content{
+	padding-top: 30px;
+}
+
+.wp-menu-name{
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+}
